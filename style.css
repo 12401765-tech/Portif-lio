@@ -1617,9 +1617,6 @@ body.Dark #Btn_X_modalOffice{
     background-color: #ffffff1f;
 }
 
-/* Media Queries - Mobile First Approach */
-
-/* Mobile Styles (320px - 768px) */
 @media (max-width: 768px) {
     #cabecalho {
         padding: 10px 20px;
@@ -1917,7 +1914,6 @@ body.Dark #Btn_X_modalOffice{
         height: 30px;
     }
 
-    /* Modal adjustments for mobile */
     #ModalHTML, #ModalCSS, #ModalJS, #ModalBD, #ModalOffice {
         width: 90%;
         max-width: 90%;
@@ -1934,7 +1930,6 @@ body.Dark #Btn_X_modalOffice{
     }
 }
 
-/* Tablet Styles (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     #cabecalho {
         padding: 12px 20px;
@@ -2030,7 +2025,7 @@ body.Dark #Btn_X_modalOffice{
     }
 }
 
-/* Large Desktop Styles (1025px+) */
+
 @media (min-width: 1025px) {
     #nav-menu {
         gap: 40px;
@@ -2056,9 +2051,15 @@ body.Dark #Btn_X_modalOffice{
         grid-template-columns: 1000px 500px;
         grid-template-rows: 800px;
     }
+
+    #Form_contact {
+        width: 900px;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+    }
 }
 
-/* Utility classes for better responsive behavior */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -2099,7 +2100,6 @@ body.Dark #Btn_X_modalOffice{
         font-size: 1.5rem;
     }
 
-    /* Contact form fixes for small screens */
     #Contact-div-pai {
         padding: 5px;
     }
@@ -2120,24 +2120,20 @@ body.Dark #Btn_X_modalOffice{
         min-height: 120px;
     }
 
-    /* Improve touch targets for mobile */
     button, a, input, textarea {
         min-height: 44px;
     }
 
-    /* Prevent zoom on input focus for iOS */
     input, textarea, select {
         font-size: 16px;
     }
 
-    /* Improve modal positioning on very small screens */
     #ModalHTML, #ModalCSS, #ModalJS, #ModalBD, #ModalOffice {
         width: 95%;
         max-height: 90vh;
         overflow-y: auto;
     }
 
-    /* Ensure skills section is properly sized */
     .faixa_azul_spotify, .faixa_preta_spotfy {
         width: 100%;
         max-width: 100%;
